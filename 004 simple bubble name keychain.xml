@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <ui_settings>
+    <left_panel collapsed="true" locked="false" password="" />
+    <object_tracker enabled="false" />
+  </ui_settings>
+  <groups>
+  </groups>
+  <objects>
+    <object uuid="3bfcd4b7-b81d-4366-84fd-9242c7a78377" name="Text_543" type="text" gID="" order="0">
+      <color>16777215</color>
+      <pos x="0" y="0" z="-1.1099596425205505" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <extrude enabled="true" axis="+Z" amount="2" />
+      <offset x="0" y="0" z="0" />
+      <params>{"text":"Priya","size":30,"height":"1"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"height":null},"font":null,"extrude":{"amount":null},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
+      <visible>true</visible>
+      <fontKey>raleway</fontKey>
+      <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
+      <offsetLayerId>65809610-5d40-4f41-af92-12d96617b843</offsetLayerId>
+    </object>
+    <object uuid="65809610-5d40-4f41-af92-12d96617b843" name="Text_543_Offset" type="offset" gID="" order="1">
+      <color>16711680</color>
+      <pos x="0" y="0" z="-7.228628781341797" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"text":"Priya","size":30,"height":5}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"text":"=Text_543.Tt"},"font":"=Text_543.Ff","offset":{"offsetAmount":null,"offsetDepth":null},"extrude":{"amount":null}}</formulas>
+      <visible>true</visible>
+      <fontKey>raleway</fontKey>
+      <isOffsetLayer>true</isOffsetLayer>
+      <parentTextUUID>3bfcd4b7-b81d-4366-84fd-9242c7a78377</parentTextUUID>
+      <parentText>Priya</parentText>
+      <parentSize>30</parentSize>
+      <offsetAmount>5</offsetAmount>
+      <offsetDepth>3</offsetDepth>
+      <parentBend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</parentBend>
+    </object>
+    <object uuid="eb0d75a0-893d-4d44-84e6-76f69a846c63" name="Ring_758" type="ring" gID="" order="2">
+      <color>16711680</color>
+      <pos x="-46.49278618243473" y="24.12800239349022" z="-6.196100729253802" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <extrude enabled="false" axis="+Y" amount="0" />
+      <offset x="0" y="0" z="0" />
+      <params>{"outerD":"4","innerD":"2","height":"5"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"outerD":null,"innerD":null,"height":null},"font":null,"extrude":{"amount":null}}</formulas>
+      <visible>true</visible>
+      <fontKey>helvetiker</fontKey>
+    </object>
+  </objects>
+  <pinnedGroups>
+    <group id="GRP_1772178845709" name="Hole" pins="eb0d75a0-893d-4d44-84e6-76f69a846c63-size-outerD,eb0d75a0-893d-4d44-84e6-76f69a846c63-size-innerD,eb0d75a0-893d-4d44-84e6-76f69a846c63-size-height,eb0d75a0-893d-4d44-84e6-76f69a846c63-translate-x,eb0d75a0-893d-4d44-84e6-76f69a846c63-translate-y,eb0d75a0-893d-4d44-84e6-76f69a846c63-translate-z" />
+    <group id="GRP_1772178891036" name="Text" pins="3bfcd4b7-b81d-4366-84fd-9242c7a78377-size-text,3bfcd4b7-b81d-4366-84fd-9242c7a78377-extrude-amount,3bfcd4b7-b81d-4366-84fd-9242c7a78377-font" />
+  </pinnedGroups>
+  <pinned>
+    <pin id="3bfcd4b7-b81d-4366-84fd-9242c7a78377-size-text" objUUID="3bfcd4b7-b81d-4366-84fd-9242c7a78377" type="size" axis="text" label="text" groupId="GRP_1772178891036" />
+    <pin id="3bfcd4b7-b81d-4366-84fd-9242c7a78377-font" objUUID="3bfcd4b7-b81d-4366-84fd-9242c7a78377" type="font" axis="fontKey" label="Font" groupId="GRP_1772178891036" />
+    <pin id="eb0d75a0-893d-4d44-84e6-76f69a846c63-size-outerD" objUUID="eb0d75a0-893d-4d44-84e6-76f69a846c63" type="size" axis="outerD" label="outerD" groupId="GRP_1772178845709" />
+    <pin id="eb0d75a0-893d-4d44-84e6-76f69a846c63-size-innerD" objUUID="eb0d75a0-893d-4d44-84e6-76f69a846c63" type="size" axis="innerD" label="innerD" groupId="GRP_1772178845709" />
+    <pin id="eb0d75a0-893d-4d44-84e6-76f69a846c63-size-height" objUUID="eb0d75a0-893d-4d44-84e6-76f69a846c63" type="size" axis="height" label="Ring height" groupId="GRP_1772178845709" />
+    <pin id="eb0d75a0-893d-4d44-84e6-76f69a846c63-translate-x" objUUID="eb0d75a0-893d-4d44-84e6-76f69a846c63" type="translate" axis="x" label="Hole  Posiotion     x" groupId="GRP_1772178845709" />
+    <pin id="eb0d75a0-893d-4d44-84e6-76f69a846c63-translate-y" objUUID="eb0d75a0-893d-4d44-84e6-76f69a846c63" type="translate" axis="y" label="Hole  Posiotion     y" groupId="GRP_1772178845709" />
+    <pin id="eb0d75a0-893d-4d44-84e6-76f69a846c63-translate-z" objUUID="eb0d75a0-893d-4d44-84e6-76f69a846c63" type="translate" axis="z" label="Hole  Posiotion     z" groupId="GRP_1772178845709" />
+    <pin id="3bfcd4b7-b81d-4366-84fd-9242c7a78377-extrude-amount" objUUID="3bfcd4b7-b81d-4366-84fd-9242c7a78377" type="extrude" axis="amount" label="Text Thick" groupId="GRP_1772178891036" />
+  </pinned>
+  <trackedObjects>
+  </trackedObjects>
+  <trackedGroups>
+  </trackedGroups>
+  <hiddenSelectorLabel>Ticked Object Selector</hiddenSelectorLabel>
+  <objectDisplayNames>
+    <displayName uuid="3bfcd4b7-b81d-4366-84fd-9242c7a78377" name="Text_543" />
+    <displayName uuid="65809610-5d40-4f41-af92-12d96617b843" name="Text_543_Offset" />
+    <displayName uuid="eb0d75a0-893d-4d44-84e6-76f69a846c63" name="Ring_758" />
+  </objectDisplayNames>
+  <registeredPlugins>
+  </registeredPlugins>
+</project>
